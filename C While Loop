@@ -9,3 +9,24 @@ int main()
 }
 return 0;
 }
+
+
+
+/Example 2
+
+
+int main()
+{
+    char a[50];
+    char b[50]="PassMe";
+    printf("Enter Pass\n");
+    scanf("%s",&a);
+    while(strcmp(a,b)!=0){
+            printf("Try Again\n");
+            printf("Enter Pass\n");
+            scanf("%s",&a);
+}
+printf("You are Welcome");
+return 0;
+
+}
