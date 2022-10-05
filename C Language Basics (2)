@@ -1,0 +1,21 @@
+
+int main()
+{
+
+    int a ;
+    int b ;
+
+    printf("Enter First Number \n");
+    scanf("%d",& a);
+    printf("Enter Second Number \n");
+    scanf("%d",&b);
+    if (a>50 && b>50){
+        printf("Both Numbers are Big");
+    }
+    
+    else {
+        printf("Both Numbers are small");
+
+    }
+    return 0;
+}
