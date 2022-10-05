@@ -1,0 +1,31 @@
+
+int main()
+{
+char a[50];
+char b[50];
+char c[50]="Username";
+char d[50]="Password";
+
+printf("Enter Username \n");
+scanf("%s",&a);
+printf("Enter Password \n");
+scanf("%s",&b);
+
+if (strcmp(a,c)==0 && strcmp(b,d)==0){
+    printf("Welcome");
+
+}
+else if (strcmp(a,c)==0 || strcmp(b,d)==0){
+         printf("Try Again");
+         }
+
+else {
+    printf("You Are Hacker");
+}
+return 0;
+
+
+
+
+
+}
