@@ -49,3 +49,36 @@ return 0;
 
 }
 
+//Example 4
+
+
+int main()
+{
+char sign;
+int a=5;
+int b=8;
+printf("enter the sign\n");
+scanf("%c",&sign);
+switch (sign)
+{
+case'+':
+    printf("a+b=%d\n",a+b);
+    break;
+case'-':
+    printf("a-b=%d\n",a-b);
+    break;
+case'*':
+    printf("a*b=%d\n",a*b);
+    break;
+case'/':
+    printf("a/b=%f\n",(double)a/b);
+    break;
+default:
+    printf("Bye");
+}
+
+return 0;
+
+}
+
+
